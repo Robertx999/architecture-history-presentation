@@ -1,0 +1,58 @@
+/* Write your global styles here, in PostCSS syntax */
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Josefin+Sans&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+	font-family: 'Prata';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/prata.woff2') format('woff2'), url('fonts/prata.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Abril Fatface';
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/abrilfatface.woff2') format('woff2'),
+		url('fonts/abrilfatface.ttf') format('truetype');
+	font-display: swap;
+} */
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+
+	h1 {
+		@apply relative text-8xl font-display;
+	}
+	h2 {
+		@apply relative text-6xl font-display;
+	}
+	h2::after {
+		@apply absolute left-[20%] bottom-0 content-[''] w-[60%] h-[.1rem] bg-black;
+	}
+	h3 {
+		@apply text-4xl font-serif;
+	}
+	p {
+		@apply text-2xl font-serif;
+	}
+	a {
+		@apply text-2xl font-serif w-fit text-emerald-700 hover:bg-emerald-100;
+	}
+}
+
+@layer utilities {
+	.no-bar {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+	.no-bar::-webkit-scrollbar {
+		display: none;
+	}
+}
