@@ -37,7 +37,7 @@
 				class="px-10 pb-5 text-white backdrop-invert backdrop-brightness-[5] backdrop-opacity-[.6]"
 			>
 				(XII w. p.n.e. - XIX w. n.e.; łac. architectura, architector - „buduję”) <br /><br />
-				Robert P., Szymon M.
+				Robert P., Szymon M.; 4cc1; 2022/2023
 			</h3>
 		</div>
 	</div>
