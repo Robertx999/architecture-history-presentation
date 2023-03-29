@@ -1,11 +1,13 @@
 <script lang="ts">
 	import SectionHeader from '../lib/SectionHeader.svelte';
 	import PageHeader from '../lib/PageHeader.svelte';
+	import thumbnail from '/src/static/thumbnail.jpg';
 	import athens from '/src/static/athens.jpg';
+	import roma from '/src/static/roma.jpg';
 	let els = ['1', '2', '3'];
 </script>
 
-<PageHeader src="/src/static/thumbnail.jpg" />
+<PageHeader src={thumbnail} />
 <p class="py-8 px-[20%] first-letter:text-7xl first-letter:tracking-widest">
 	Architektura odegrała ważną rolę w kształtowaniu świata, w którym dziś żyjemy. Od starożytnych
 	cywilizacji do czasów współczesnych, architektura służyła nie tylko jako środek schronienia, ale
@@ -85,7 +87,7 @@
 	mocno rozchylonych na zewnątrz.
 </p>
 
-<SectionHeader src={'/src/static/roma.jpg'}
+<SectionHeader src={roma}
 	><div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">
 		Starożytny Rzym
 	</div></SectionHeader
