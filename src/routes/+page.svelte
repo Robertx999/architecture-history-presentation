@@ -12,6 +12,10 @@
 	import baroque from '/src/static/baroque.jpg';
 	import rococo from '/src/static/rococo.jpg';
 	import neoclassical from '/src/static/neoclassical.jpg';
+
+	import greek_styles from '/src/static/greek-styles.jpg';
+	import romanesque_style from '/src/static/romanesque-style.jpg';
+
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -57,8 +61,8 @@
 	Budynki mieszkalne powstawały z mniej trwałych materiałów. Domy dla przeciętnych obywateli były
 	zbudowane na planie koła o kamiennej podstawie. Ściany składały się z cegieł wysuszonych na
 	słońcu. W centrum domu znajdowało się ognisko, a nam nim otwór w dachy, gdyż greckie domy nie
-	posiadały kominów. <br /><br /> W architekturze greckiej możemy wyróżnić trzy style(uporządkowane
-	chronologicznie): <br /><br />
+	posiadały kominów. <br /><br />
+	W architekturze greckiej możemy wyróżnić trzy style(uporządkowane chronologicznie): <br /><br />
 	<a href="#styl-dorycki" class="ml-10 flex items-center">
 		1. Dorycki - VII w. p.n.e. &thinsp;
 		<span class="h-min material-symbols-outlined">link</span>
@@ -71,6 +75,7 @@
 		3. Koryncki - V - VI w. p.n.e. &thinsp;
 		<span class="h-min material-symbols-outlined">link</span>
 	</a>
+	<img src={greek_styles} alt="three styles of greek architecture" />
 </p>
 
 <h2 id="styl-dorycki" class="py-8 px-[20%]">Styl dorycki</h2>
@@ -201,7 +206,8 @@
 	solidności i siły. Ponadto wiele kościołów z tego okresu miało transept, czyli krzyżowy plan podłogi,
 	który pozwalał na większy przepływ ludzi podczas ceremonii religijnych. Fasady romańskich budynków
 	były często zdobione ozdobnymi kamiennymi rzeźbami, przedstawiającymi sceny z Biblii lub żywoty świętych.
-	<br /><br />
+	<br /> <img src={romanesque_style} alt="rekonstrukcja wyglądu romańskiej katedry w Konstancji" />
+	<br />
 	Innym godnym uwagi aspektem architektury romańskiej było użycie wież, które często były budowane na
 	rogach budynków lub jako oddzielne konstrukcje. Wieże te służyły zarówno celom praktycznym, jak i symbolicznym,
 	zapewniając punkt obserwacyjny dla obrony budynku, a także symbolizując siłę i władzę kościoła.
@@ -329,6 +335,11 @@
 			>;
 			<a href="https://eszkola.pl/jezyk-polski/architektura-19.html">eszkola.pl</a>;
 			<a href="https://klp.pl/barok/a-7569-3.html">klp.pl</a>;
+			<p class="whitespace-nowrap">
+				<a href="https://commons.wikimedia.org/wiki/File:Dehio_I_56_Konstanz_Section.jpg"
+					>Georg Dehio/Gustav von Bezold</a
+				>, Public domain, via Wikimedia Commons
+			</p>
 		</div>
 	</h3>
 </div>
