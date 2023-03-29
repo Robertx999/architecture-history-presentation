@@ -308,4 +308,28 @@
 	François Chalgrin, który może być znany z Łuku Triumfalnego.
 </p>
 
-<div class="h-96" />
+<div class="h-1 w-full mt-72 rounded-[100%] bg-black" />
+
+<div class="pt-72 pb-10 px-[20%]">
+	<h3>
+		<div class="leading-[7rem]">
+			<h2 class="w-fit bg-black text-white after:content-none">Wykonanie:</h2>
+			Szymon M., Robert P.<br />
+			<h2 class="w-fit bg-black text-white after:content-none">Źródła:</h2>
+		</div>
+		<div>
+			<a href="https://unsplash.com/">unsplash.com</a>;
+			<a href="https://www.wikipedia.org/">wikipedia.org</a>;
+			<a href="https://szkolnictwo.pl/szukaj,Porz%C4%85dek_dorycki">szkolnictwo.pl</a>;
+			<a href="https://www.na6.pl/historia/architektura_starozytnej_grecji">na6.pl(grecja)</a>;
+			<a href="https://www.na6.pl/historia/architektura_starozytnego_rzymu">na6.pl(rzym)</a>;
+			<a
+				href="https://archirama.muratorplus.pl/encyklopedia-architektury/architektura-rzymu-starozytnego,62_4150.html?cat=62"
+				>archirama.muratorplus.pl</a
+			>;
+			<a href="https://eszkola.pl/jezyk-polski/architektura-19.html">eszkola.pl</a>;
+			<a href="https://klp.pl/barok/a-7569-3.html">klp.pl</a>;
+		</div>
+	</h3>
+</div>
+<footer class="py-8 px-[20%]">&copy; Copyright 2023 Robert P. Szymon M.</footer>
