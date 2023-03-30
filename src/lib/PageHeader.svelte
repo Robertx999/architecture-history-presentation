@@ -27,15 +27,11 @@
 			')'}
 	/>
 	<div class="h-screen min-w-min flex flex-col justify-center items-center">
-		<div class="max-w-4xl w-3/5 min-w-min overflow-hidden">
-			<h1
-				class="h-52 px-10 select-none text-white backdrop-invert backdrop-brightness-[5] backdrop-opacity-[.6]"
-			>
-				Historia Architektury
-			</h1>
-			<h3
-				class="px-10 pb-5 text-white backdrop-invert backdrop-brightness-[5] backdrop-opacity-[.6]"
-			>
+		<div
+			class="max-w-4xl w-3/5 min-w-min overflow-hidden backdrop-invert backdrop-brightness-[5] backdrop-opacity-[.6]"
+		>
+			<h1 class="h-52 px-10 select-none text-white">Historia Architektury</h1>
+			<h3 class="px-10 pb-5 text-white">
 				(XII w. p.n.e. - XIX w. n.e.; łac. architectura, architector - „buduję”) <br /><br />
 				Robert P., Szymon M.; 4cc1; 2022/2023
 			</h3>

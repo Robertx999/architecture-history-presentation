@@ -1,6 +1,7 @@
 <script lang="ts">
 	import SectionHeader from '../lib/SectionHeader.svelte';
 	import PageHeader from '../lib/PageHeader.svelte';
+
 	import thumbnail from '/src/static/thumbnail.jpg';
 	import athens from '/src/static/athens.jpg';
 	import roma from '/src/static/roma.jpg';
@@ -48,7 +49,7 @@
 	kulturowej, który wciąż inspiruje i wpływa na architektów i projektantów na całym świecie.
 </p>
 
-<SectionHeader src={athens}>
+<SectionHeader id="0" src={athens}>
 	<div class="backdrop-brightness-[.65] contrast-200 grayscale text-white w-fit py-5 px-10">
 		Starożytna Grecja
 	</div>
@@ -104,7 +105,7 @@
 	mocno rozchylonych na zewnątrz.
 </p>
 
-<SectionHeader src={roma}>
+<SectionHeader id="1" src={roma}>
 	<div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">
 		Starożytny Rzym
 	</div>
@@ -137,7 +138,7 @@
 	Amfiteatry również były powszechne w starożytnym Rzymie.
 </p>
 
-<SectionHeader src={medieval}>
+<SectionHeader id="2" src={medieval}>
 	<div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">
 		Wczesne chrześcijaństwo
 	</div>
@@ -164,7 +165,7 @@
 	do pochówków. Bazyliki służyły do organizowania publicznych zgromadzeń, takich jak sądy i targi.
 </p>
 
-<SectionHeader src={byzantine}>
+<SectionHeader id="3" src={byzantine}>
 	<div class="backdrop-brightness-[.65] contrast-[4] text-white w-fit py-5 px-10">Bizancjum</div>
 </SectionHeader>
 <p class="py-8 px-[20%] first-letter:text-7xl first-letter:tracking-widest">
@@ -189,7 +190,7 @@
 	podziw.
 </p>
 
-<SectionHeader src={romanesque}>
+<SectionHeader id="4" src={romanesque}>
 	<div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">
 		Romanizm
 	</div>
@@ -218,7 +219,7 @@
 	historyczne.
 </p>
 
-<SectionHeader src={gothic}>
+<SectionHeader id="5" src={gothic}>
 	<div class="backdrop-invert-[.6] backdrop-sepia hue-rotate-180 text-white w-fit py-5 px-10">
 		Gotyk
 	</div>
@@ -245,7 +246,7 @@
 	wzornictwa.
 </p>
 
-<SectionHeader src={renaissance}>
+<SectionHeader id="6" src={renaissance}>
 	<div
 		class="backdrop-brightness-90 backdrop-contrast-150 backdrop-hue-rotate-180 text-white w-fit py-5 px-10"
 	>
@@ -265,7 +266,7 @@
 	z kolumnami. Koniec tego stylu przypada na połowę XVII wieku.
 </p>
 
-<SectionHeader src={baroque}>
+<SectionHeader id="7" src={baroque}>
 	<div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">Barok</div>
 </SectionHeader>
 <p class="py-8 px-[20%] first-letter:text-7xl first-letter:tracking-widest">
@@ -284,7 +285,7 @@
 	Rzymie projektu Giacomo della Portę oraz Jacopa Barozziego da Vignoli.
 </p>
 
-<SectionHeader src={rococo}>
+<SectionHeader id="8" src={rococo}>
 	<div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">Rokoko</div>
 </SectionHeader>
 <p class="py-8 px-[20%] first-letter:text-7xl first-letter:tracking-widest">
@@ -297,7 +298,7 @@
 	Vendôme w Paryżu.
 </p>
 
-<SectionHeader src={neoclassical}>
+<SectionHeader id="9" src={neoclassical}>
 	<div class="backdrop-invert-[.75] backdrop-hue-rotate-90 text-white w-fit py-5 px-10">
 		Klasycyzm
 	</div>
