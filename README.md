@@ -6,7 +6,7 @@ Zbudowane z pomocą:
 
 ![sveltekit_tailwindcss_thumbnail](https://user-images.githubusercontent.com/26821114/228897023-ff512e68-5314-4bc0-b32d-001953e3733f.png)
 
-<a href="https://historia-architektury.vercel.app/" style="background: white; color: black; border-radius: 4px; border: none"> Podgląd </a>
+[Podgląd](https://historia-architektury.vercel.app/)
 
 ## Developing
 
